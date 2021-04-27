@@ -9,6 +9,8 @@ summary: |
   In response to the COVID-19 outbreak, this template enables government agencies and healthcare organizations to provide up-to-date information to the public, and ensure businesses can provide critical company-specific info related to COVID-19 to their customers. This offer includes the initial template you need to COVID-19 Google Virtual Agent immediately.
 ---
 
+In response to the COVID-19 outbreak, this template enables government agencies and healthcare organizations to provide up-to-date information to the public, and ensure businesses can provide critical company-specific info related to COVID-19 to their customers. This offer includes the initial template you need to COVID-19 Google Virtual Agent immediately.
+
 ## Preinstallation Steps
 1. Verify you have a Goolge Dialogflow account.
    - Navigate [here](https://dialogflow.com/) to setup a new account.
@@ -47,6 +49,8 @@ summary: |
    - In the `Genesys Cloud OAuth Client Credential` section, click `Change` and input the newly created `Client ID` and `Client Secret` values from item 1 above.
 4. Click the Details tab, toggle from `Inactive` to `Active`, and click `Save`.
 
+![Google DialogFlow](images/screenshot-2.png "Google DialogFlow")
+
 ## Enable the COVID-19 Voice Bot for Genesys Cloud
 The COVID-19 bot can be implemented as a brand new flow, or within one of your existing Architect flows.
 
@@ -65,3 +69,5 @@ The COVID-19 bot can be implemented as a brand new flow, or within one of your e
    - In the `Toolbox`, under `Data`, drag in the sub-item `Call Dialogflow Bot`.
    - Under Dialogflow Agent, select the agent you created in the Google Cloud Platform console with the imported COVID-19 bot.
    - Click `Publish` to make the updated flow available for use.
+
+![Inbound call flow](images/screenshot-1.png "Inbound call flow")
