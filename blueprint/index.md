@@ -38,7 +38,7 @@ This Genesys Cloud Developer Blueprint provides instructions for building a rapi
 * [Enable the COVID-19 Chat Bot for Genesys Cloud](#Enable_the_COVID-19_Chat_Bot_for_Genesys_Cloud)
 
 ### Download Google Dialogflow Bot
-1. Download the following zip files [here](/attachments/):
+1. Download the following zip files [here](https://github.com/AgnesCorpuz/gc-rapid-response-virtual-agent-blueprint/tree/main/blueprint/attachments):
    - covid-19-agent-template.zip
    - dialogflow-fulfillment.zip
 2. In the Google Cloud Platform console, create a new Dialogflow agent. For more information, see [Build an agent from scratch](https://cloud.google.com/dialogflow/es/docs/tutorials/build-an-agent) in DialogFlow.
@@ -123,3 +123,8 @@ The COVID-19 bot can be implemented as a brand new flow, or within one of your e
      - Populate the `Chat Data` fields and click `Start Chat`
 
 ![Chat with Rapid Response Agent](images/chat-with-rapid-response-agent.jpg "Chat with Rapid Response Agent")
+
+## Additional resources
+* [COVID-19 Rapid Response Virtual Agent | Genesys Cloud - eLearning](https://gened.genesys.com/learn/course/internal/view/elearning/11782/covid-19-rapid-response-virtual-agent-genesys-cloud-elearning)
+* [DevCast: How to Build a Google Rapid Response Virtual Assistant with Genesys Cloud](https://www.youtube.com/watch?v=hvPVYHzc6_8)
+* [Configure the Google DialogFlow Integration](https://help.mypurecloud.com/articles/configure-the-google-dialogflow-platform-service-account-credential/)
