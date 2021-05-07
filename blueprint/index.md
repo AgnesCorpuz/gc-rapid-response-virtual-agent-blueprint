@@ -38,7 +38,7 @@ This Genesys Cloud Developer Blueprint provides instructions for building a rapi
 * [Enable the COVID-19 Chat Bot for Genesys Cloud](#Enable_the_COVID-19_Chat_Bot_for_Genesys_Cloud)
 
 ### Download Google Dialogflow Bot
-1. Download the following zip files [here](https://github.com/GoogleCloudPlatform/covid19-rapid-response-demo/tree/master/agent-template):
+1. Download the following zip files [here](/attachments/):
    - covid-19-agent-template.zip
    - dialogflow-fulfillment.zip
 2. In the Google Cloud Platform console, create a new Dialogflow agent. For more information, see [Build an agent from scratch](https://cloud.google.com/dialogflow/es/docs/tutorials/build-an-agent) in DialogFlow.
@@ -47,7 +47,7 @@ This Genesys Cloud Developer Blueprint provides instructions for building a rapi
    ![Import Agent Template](images/import-agent-template.jpg "Import Agent Template")
 4. Note the service account assigned to the Dialogflow agent.
 5. In the Google Cloud Platform IAM, ensure the service account has the `Dialogflow API Client` and `Dialogflow API Admin` roles.
-   ![Import Agent Template](images/import-agent-template.jpg "Import Agent Template")
+   ![Create Service Account](images/create-service-account.jpg "Create Service Account")
 6. Download the service account details in the JSON format. These will be used in the next step.
 :::primary
 **Note**: Google's Rapidly build and deploy a virtual agent using Dialogflow templates is located [here](https://cloud.google.com/dialogflow/docs/tutorials/covid19-rapid-response).
@@ -63,7 +63,7 @@ This Genesys Cloud Developer Blueprint provides instructions for building a rapi
 2. Install the Google Dialogflow integration.
    - Option 1: Admin > Integrations > Add New (+)
    - Option 2: Enable on AppFoundry [here](https://appfoundry.genesys.com/filter/genesyscloud/listing/43a28e86-6158-4f86-b705-0b7471e24cfe).
-   ![Add Google DialogFlow](images/add-dialogflow-interaction3.jpg "Add Google DialogFlow")
+   ![Add Google DialogFlow](images/add-dialogflow-interaction.jpg "Add Google DialogFlow")
 3. In Admin > Integrations > Google Dialogflow, navigate to the Configuration tab, sub-option Credentials:
    - In the `Google Cloud Platform Service Account Credential` section, click `Change` and input the following information from the service account JSON downloaded previously:
      - Client ID (JSON field: `client_id`)
@@ -73,8 +73,6 @@ This Genesys Cloud Developer Blueprint provides instructions for building a rapi
    - In the `Genesys Cloud OAuth Client Credential` section, click `Change` and input the newly created `Client ID` and `Client Secret` values from item 1 above.
    ![Google DialogFlow Credential Configuration](images/dialogflow-interaction-credentials-configuration.jpg "Google DialogFlow Credential Configuration")
 4. Click the Details tab, toggle from `Inactive` to `Active`, and click `Save`.
-
-![Google DialogFlow](images/screenshot-2.png "Google DialogFlow")
 
 ### Enable the COVID-19 Voice Bot for Genesys Cloud
 The COVID-19 bot can be implemented as a brand new flow, or within one of your existing Architect flows.
