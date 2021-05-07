@@ -80,7 +80,7 @@ The COVID-19 bot can be implemented as a brand new flow, or within one of your e
 1. Navigate to Architect in your Genesys Cloud organization.
    - Admin > Architect
 2. To use the COVID-19 bot as a new flow:
-   - [Download](/attachments/COVID-19_Rapid_Response_Flow.zip) the ZIP file containing a pre-built flow.
+   - [Download](https://github.com/AgnesCorpuz/gc-rapid-response-virtual-agent-blueprint/blob/main/blueprint/attachments/COVID-19_Rapid_Response_Flow.zip?raw=true) the ZIP file containing a pre-built flow.
    - In Architect, choose `Inbound Call` click `Add`, give the flow a name, and click `Create Flow`.
    - Click the caret down next to the Save button, choose Import, select the `i3InboundFlow` file extracted from the ZIP downloaded, and click `Import`.
    - If there is a red `Call Dialogflow Bot` block, click on it, and under Dialogflow Agent, select the agent you created in the Google Cloud Platform console with the imported COVID-19 bot.
@@ -101,7 +101,7 @@ The COVID-19 bot can be implemented as a brand new flow, or within one of your e
 1. Navigate to Architect in your Genesys Cloud organization.
    - Admin > Architect
 2. To use the COVID-19 bot as a new flow:
-   - [Download](/attachments/COVID-19_Rapid_Response_Flow.zip) the ZIP file containing a pre-built flow.
+   - [Download](https://github.com/AgnesCorpuz/gc-rapid-response-virtual-agent-blueprint/blob/main/blueprint/attachments/COVID-19_Rapid_Response_Flow.zip?raw=true) the ZIP file containing a pre-built flow.
    - In Architect, choose `Inbound Chat` and click `Add`, give the flow a name, and click `Create Flow`.
    - Click the caret down next to the Save button, choose Import, select the `i3InboundChatFlow` file extracted from the ZIP downloaded, and click `Import`.
    - If there is a red `Call Dialogflow Bot` block, click on it, and under Dialogflow Agent, select the agent you created in the Google Cloud Platform console with the imported COVID-19 bot.
